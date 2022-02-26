@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Phand</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <form action="https://formsubmit.co/ph4ndcontato@gmail.com" method="POST" class="form">
+        <label for="nick">Nick</label>
+        <input type="text" name="nick" id="nick" placeholder="Digite seu Nick" required>
+
+        <label for="egirl">É Egirl?</label>
+        <input type="text" name="egirl" id="egirl" placeholder="Digite apenas Sim ou Nao" minlength="1" maxlength="3" required>
+
+        <label for="cordocabelo">Qual a cor do seu cabelo?</label>
+        <input type="text" name="cordocabelo" id="cordocabelo" placeholder="Digite a cor do seu cabelo" required>
+
+        <label for="elo">Elo</label>
+        <input type="text" name="elo" id="elo" placeholder="Digite seu elo" required>
+
+        <label for="email">Email Para contato</label>
+        <input type="email" name="email" id="email" placeholder="Digite um email válido" required>
+
+        <label for="main">Main</label>
+        <input type="text" name="main" id="main" placeholder="Digite seu main" required>
+
+        <label for="yummi">Jogaria de yummi por mim?</label>
+        <input type="text" name="yummi" id="yummi" placeholder="Digite apenas Sim ou Nao" minlength="1" maxlength="3" required>
+
+        <label for="Faz raw">Faz rawwwwr sempre que ulta?</label>
+        <input type="text" name="raw" id="Fazraw" placeholder="Digite apenas Sim ou Nao" minlength="1" maxlength="3" required>
+
+
+
+        <label for="curiosidade">Curiosidade</label>
+        <textarea name="message" id="curiosidade" placeholder="Deixe alguma curiosidade sobre você! (Opicional)"></textarea>
+
+
+        <button type="submit">Enviar</button>
+        <input type="hidden" name="_next" value="http://formularioph4nd.vercel.app/obrigado.html">
+        <input type="hidden" name="_captcha" value="false">
+        
+   </form>
+</body>
+</html>
